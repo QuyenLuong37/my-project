@@ -12,7 +12,8 @@ function User() {
 function Admin() {
 	name: "Anh Quyen";
 	age: 100;
-	gender: 'male'
+	gender: 'male';
+	city: "Lao Cai";
 }
 
 
