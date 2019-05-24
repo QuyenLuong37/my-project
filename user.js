@@ -2,7 +2,8 @@ function User() {
 	this.name = '';
 	this.age = 20;
 	this.gender = "Male";
-	this.lasname = "Luong"
+	this.lasname = "Luong";
+	this.firstname = "Quyennn"
 }
 
 User.prototype.name = function(info) {
