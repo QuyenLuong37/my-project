@@ -8,7 +8,8 @@ function User() {
 
 function Admin() {
 	name: "Anh Quyen";
-	age: 100
+	age: 100;
+	city: "Lao Cai";
 }
 
 
