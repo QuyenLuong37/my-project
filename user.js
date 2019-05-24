@@ -4,10 +4,8 @@ function User() {
 	this.gender = "Male";
 	this.address = "Nghe An province";
 	this.phone = "0977144135";
-	this.lasname = "Luong";
+	this.lastname = "Luong";
 	this.city = "Vinh";
-	this.lasname = "Luong";
-	this.lasname = "Luong";
 	this.firstname = "Quyennn"
 }
 
