@@ -6,6 +6,7 @@ function User() {
 	this.phone = "0977144135";
 	this.lasname = "Luong";
 	this.city = "Vinh"
+	this.lasname = "Luong"
 }
 
 User.prototype.name = function(info) {
