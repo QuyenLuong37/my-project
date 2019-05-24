@@ -1,5 +1,7 @@
+const chalk = require('chalk');
+
 function User() {
-	this.name = '';
+	this.name = 'Anh Quyen dep choai!';
 	this.age = 20;
 	this.gender = "Male";
 	this.address = "Nghe An province";
@@ -8,6 +10,7 @@ function User() {
 	this.city = "Vinh";
 	this.firstname = "Quyennn"
 }
+
 
 function Admin() {
 	name: "Anh Quyen";
@@ -27,8 +30,8 @@ function Post() {
 
 Admin.prototype.address = "Malaysia";
 
-User.prototype.name = function(info) {
-	this.name = "Anh Quyen!";
+User.prototype.popUp = function() {
+	console.log(`Xin chao ` + chalk.red(this.name));
 }
 
 module.exports = User;
