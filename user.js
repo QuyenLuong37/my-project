@@ -20,7 +20,8 @@ function Admin() {
 function Post() {
 	title: 'Hello World!';
 	content: 'Lorem ipnum Hihihihi';
-	type: 'Act'
+	type: 'Act';
+	author: 'Anh Quyen'
 }
 
 
