@@ -9,6 +9,11 @@ function User() {
 	this.firstname = "Quyennn"
 }
 
+function Admin() {
+	name: "Anh Quyen";
+	age: 100
+}
+
 User.prototype.name = function(info) {
 	this.name = "Anh Quyen!";
 }
