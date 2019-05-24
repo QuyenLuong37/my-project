@@ -17,6 +17,13 @@ function Admin() {
 }
 
 
+function Post() {
+	title: 'Hello World!';
+	content: 'Lorem ipnum Hihihihi';
+	type: 'Act'
+}
+
+
 Admin.prototype.address = "Malaysia";
 
 User.prototype.name = function(info) {
