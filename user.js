@@ -11,6 +11,9 @@ function Admin() {
 	age: 100
 }
 
+
+Admin.prototype.address = "Malaysia";
+
 User.prototype.name = function(info) {
 	this.name = "Anh Quyen!";
 }
