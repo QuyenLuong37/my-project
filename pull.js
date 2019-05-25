@@ -4,6 +4,7 @@ function notifiction() {
 
 function Animal(animal) {
 	this.name = animal;
+	this.color = 'white'
 }
 
 module.exports = Animal;
