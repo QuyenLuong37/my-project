@@ -29,7 +29,7 @@ function Post() {
 
 
 Admin.prototype.address = "Malaysia";
-
+Post.prototype.creatAt = "03-02-2090";
 User.prototype.popUp = function() {
 	console.log(`Xin chao ` + chalk.red(this.name));
 }

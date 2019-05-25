@@ -4,7 +4,8 @@ function notifiction() {
 
 function Animal(animal) {
 	this.name = animal;
-	this.color = 'white'
+	this.color = 'white';
+	this.age = 22;
 }
 
 Animal.prototype.sayHi = function(name) {
