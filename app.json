@@ -1,0 +1,17 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "description": "hihihi",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "my-project",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
